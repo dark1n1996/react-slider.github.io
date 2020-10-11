@@ -1,0 +1,18 @@
+.iceberg{ 
+    height: 100vh;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-image: url('../../images/ref.png');
+}
+
+.leaf {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../../images/leaf.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 4;
+}

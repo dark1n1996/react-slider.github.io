@@ -1,0 +1,64 @@
+.item {
+    height: 100vh;
+    min-width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.item:nth-child(1) {
+    background-image: url('../../images/ref2.png');
+}
+
+.item:nth-child(2) {
+    background-image: url('../../images/ref3.png');
+}
+
+.item:nth-child(3) {
+    background-image: url('../../images/ref4.png');
+}
+
+.wrapper {
+    display: flex;
+    transition: .7s;
+}
+
+.slider {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.input {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 10px;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    position: fixed;
+    bottom: 80px;
+    width: 650px;
+    left: calc(50% - 325px);
+    z-index: 10;
+    transition-duration: 1s;
+}
+
+.input:hover {
+    opacity: 1;
+}
+
+.input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 45px;
+    height: 60px;
+    border: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    transition-duration: 1s;
+    background-image: url('../../images/Polygon\ 1.svg');
+}
+
+

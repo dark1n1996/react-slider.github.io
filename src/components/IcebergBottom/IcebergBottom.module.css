@@ -1,0 +1,47 @@
+.iceberg {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    transform-style: inherit;
+    background-image: url('../../images/ref1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ice {
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.ice:nth-child(1){
+  background-image: url('../../images/ice/ice.png');
+  height: 210px;
+  width: 210px;
+  top: 75px;
+  right: -65px;
+}
+.ice:nth-child(2){
+  background-image: url('../../images/ice/ice2.png');
+  height: 40px;
+  width: 40px;
+  top: 205px;
+  left: 85px;
+}
+.ice:nth-child(3){
+  background-image: url('../../images/ice/ice3.png');
+  height: 104px;
+  width: 104px;
+  bottom: 210px;
+  left: 210px;
+}
+.ice:nth-child(4){
+  background-image: url('../../images/ice/ice4.png');
+  height: 75px;
+  width: 75px;
+  bottom: 110px;
+  right: 250px;
+}
+

@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  transition: .7s;
+}
+
+.slidshow {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #232399;
+}
